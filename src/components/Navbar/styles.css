@@ -26,3 +26,9 @@
     border-color: transparent;
     color: transparent;
   }
+
+@media (min-width: 576px) {
+    .main-nav {
+        padding-left: 88px;
+    }
+}
