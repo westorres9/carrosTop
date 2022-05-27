@@ -1,12 +1,13 @@
 import React from 'react';
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from 'pages/Home';
+
+import CarCard from 'components/CarCard';
 
 function App() {
   return (
     <>
-      <Home/>
+      <CarCard/>
     </>
   );
 }
